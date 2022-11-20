@@ -55,7 +55,7 @@ function LawyerDashboard() {
 
                     <button className='flex md:hidden' onClick={toggleMenu}><img src={menuActive ? x : hamburger} alt="" className='w-[25px]' /></button>
 
-                    <Link to='/' className='w-[30%] sm:w-[20%] flex md:hidden'>
+                    <Link to='/' className='w-[30%] sm:w-[20%] h-auto flex md:hidden'>
                         <img src={logo} className='' alt="" />    
                     </Link>
 
